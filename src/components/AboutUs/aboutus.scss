@@ -1,0 +1,39 @@
+@import "src/global";
+
+.about{
+  display: flex;
+  padding-top: 20px;
+
+  .info{
+    width: 70%;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .contact__us{
+    width: 30%;
+    font-size: 20px;
+
+    ul li{
+      margin-bottom: 10px;
+      padding-left: 30px;
+
+      &:first-child{
+        background: url(../../assets/icon/telegram.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &:nth-child(2){
+        background: url(../../assets/icon/mountain.svg) no-repeat;
+        background-size: contain;
+      }
+
+      &:last-child{
+        background: url(../../assets/icon/eco.svg) no-repeat;
+        background-size: contain;
+      }
+
+    }
+  }
+
+}

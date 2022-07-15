@@ -1,0 +1,11 @@
+@import "src/global";
+
+.wrapper__banner{
+  background: url(../../assets/image/banner.jpg) no-repeat 50%;
+  background-size: cover;
+
+  .banner{
+    height: 400px;
+  }
+
+}

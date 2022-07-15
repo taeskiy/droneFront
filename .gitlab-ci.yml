@@ -1,0 +1,13 @@
+stages:
+  - deploy
+
+deploy:main:
+  stage: deploy
+  script:
+    - rm -rf /var/www/html/droneweb/*
+    - cp -R ./build/* /var/www/html/droneweb
+  only:
+    - main
+  tags:
+    - drone_front
+
